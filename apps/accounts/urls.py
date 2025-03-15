@@ -11,6 +11,6 @@ urlpatterns = [
 
     # Tokenni yangilash uchun
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('user_registartion/', RegisterView.as_view(), name='user_registartion'),
+    path('user/', RegisterView.as_view(), name='user'),
 ]
 
